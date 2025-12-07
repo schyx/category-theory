@@ -10,9 +10,17 @@
 
 + $2^2 = 4$.
 
-+ The maps that satisfy $f compose f = f$ must be surjective of which there are $3 * 2 * 1 = 6$. The 2 maps where none of the three elements are fixed do not satisfy $f compose f = f$, but the other 4 do.
++ If we keep all 3 elements the same, then that will always work, adding 1 to our sum.
 
-+ Same as above, except both surjective maps satisfy $g compose g = g$.
+  There are 6 maps keeping 2 elements the same, and all work, adding 6.
+
+  There are 12 maps keeping 1 element the same. Maps that swap the two non-fixed elements do not work (there are 3 of these). Maps that send both non-fixed elements to the fixed element work (there are 3 of these). Maps that sends one of the non-fixed element to the other, and the other non-fixed element to the fixed element do not work (there are 6 of these).
+
+  There are 2 maps keeping 0 elements the same. Neither works.
+
+  Adding the ones that work, we get $1 + 6 + 3 = 10$.
+
++ Every mapping except swapping the two satisfies $g compose g = g$, so $4 - 1 = 3$.
 
 + No pair of maps satisfy $g compose f = 1_A$. This is because $|B| lt |A|$, so there cannot be a surjective $g : B arrow.r A$.
 
